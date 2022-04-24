@@ -44,8 +44,8 @@ int main () {
 		win.wait_for_button(); 
 
 	   while(true){
-            int x = rand()% 7 + 0;
-            int y = rand()% 7 + 0;
+            int x = rand()% 8;
+            int y = rand()% 8;
             Image ii {Point{x*100,y*100},"x.jpg"};
             win.attach(ii);
             win.wait_for_button();
